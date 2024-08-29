@@ -1,0 +1,7 @@
+{
+    "sketch": "Surveillance-Robot-Ozorinho---Arduino-code-.ino",
+    "configuration": "cpu=atmega2560",
+    "board": "arduino:avr:mega",
+    "port": "/dev/ttyUSB0",
+    "programmer": "arduinoisp"
+}

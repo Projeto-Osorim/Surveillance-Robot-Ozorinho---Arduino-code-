@@ -3,7 +3,6 @@
 
 #include "../domain/motor.h"
 
-
 class Gerencia{
     private:
         Motor motorDireito;

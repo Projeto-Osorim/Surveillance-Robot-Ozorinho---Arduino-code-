@@ -17,17 +17,16 @@ class Gerencia{
             this->motorDireito.setPwm(this->pwmFrente);
             this->motorEsquerdo.setPwm(this->pwmFrente);
 
-            this->motorDireito.rodarAntiHorario();
-            this->motorEsquerdo.rodarHorario();
+            this->motorDireito.rodarHorario();
+            this->motorEsquerdo.rodarAntiHorario();
         }
 
         void andarTras(){
             this->motorDireito.setPwm(this->pwmTras);
             this->motorEsquerdo.setPwm(this->pwmTras);
 
-            this->motorDireito.rodarHorario();
-            this->motorEsquerdo.rodarAntiHorario();
-
+            this->motorDireito.rodarAntiHorario();
+            this->motorEsquerdo.rodarHorario();
         }
 
         void virarEsquerda(){
